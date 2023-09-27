@@ -1,0 +1,75 @@
+Fase 1 -Reconociendo el entorno.
+
+Estimado Estudiantes a continuación se indica la información del
+planteamiento del problema que deberá desarrollar en esta actividad
+de la Fase 1 – Reconociendo el entorno:
+
+Planteamiento del problema
+
+El director del curso Estructura de datos desea conocer el nivel
+de conocimientos previos en materia de fundamentos de programación 
+y programación de los estudiantes matriculados en el curso.
+
+Se requiere que a través de una aplicación desarrollada en lenguaje
+de programación C# ya sea en modo consola o con interfaz gráfica
+Windows Forms, sirva como simulador para calcular el valor a pagar
+por concepto del vuelo a un destino en la aerolínea Aire Tour.
+
+Teniendo en cuenta las siguientes tablas:
+
+Destino   Valor clase A   Valor clase B   Valor clase C
+Bogotá        $300000         $225000       $150000
+Medellín      $420000         $315000       $210000
+Florencia     $270000         $202500       $135000
+Pitalito      $250000         $187500       $125000
+
+El valor del vuelo tendrá un descuento teniendo en cuenta el
+estrato socioeconómico del cliente de la aerolínea así:
+
+Estrato  Descuento
+1              10%
+2              10%
+3              7%
+4              7%
+5              5%
+6              5%
+
+También se tendrá descuento teniendo en cuenta el día de
+la semana del vuelo:
+
+Día semana    Descuento
+Lunes                    10%
+Martes                  10%
+Miércoles              10%
+Jueves                  5%
+Viernes                5%
+Sábado                0%
+Domingo             0%
+
+La aerolínea Aire Tour está promocionando la utilización por
+parte del género femenino y otorga un descuento adicional del 3%.
+
+Es importante que al ejecutar la aplicación se muestre en pantalla
+la información inicial así, el nombre completo del estudiante,
+el nombrede la aplicación Aire Tour, el nombre del curso y pedirá
+ingresar la contraseña de acceso genérica que será: 123, como
+nivel deseguridad básico, de tal manera que si se digita la
+contraseña correcta lo lleve a otra pantalla o interfaz para
+ingresar losdatos del estudiante en el simulador y mostrar el
+resultado en pantalla.
+
+Se espera que la aplicación en tiempo de ejecución pida número de
+Identificación, nombre completo, destino del vuelo, clase de vuelo
+en el que viaja, el estrato a que pertenece, género y día de la semana;
+con estos datos la aplicación hará los cálculos y como resultado de la
+ejecución mostrará en pantalla Identificación, nombre completo,
+género, destino del vuelo, la clase del vuelo, el estrato a que pertenece,
+día de la semana del vuelo, el valor a pagar del vuelo y el descuento
+que obtiene.
+
+Nota: recuerde que después de realizar la aplicación, deberá grabar
+un videode máximo 15 minutos de duración. En donde se debe activar
+la cámara para evidenciar su identidad y su voz. Se espera que
+explique el código fuente y por supuesto la ejecución de la aplicación
+para evidenciar el resultado. “No explique el contenido de la guía en
+el video, solo explique la aplicación”.
